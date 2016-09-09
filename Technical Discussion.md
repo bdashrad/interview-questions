@@ -5,3 +5,5 @@
 * What is your biggest mess up?
   * How did you discover your mistake?
   * What did you do to fix it?
+* Walk me through a project you enjoyed start to finish.
+  * explain design decisions (why x and not y?)
