@@ -7,3 +7,5 @@
   * What did you do to fix it?
 * Walk me through a project you enjoyed start to finish.
   * explain design decisions (why x and not y?)
+* What is your favorite programming language?
+  * What is bad/do you dislike about it?
