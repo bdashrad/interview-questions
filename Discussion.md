@@ -10,6 +10,13 @@
   * explain design decisions (why x and not y?)
 * What is your favorite programming language?
   * What is bad/do you dislike about it?
+* Amazon's Elastic Compute Cloud has numerous regions as well as numerous "availability zones"
+in each region.
+  * Explain in simple terms what a region is, and what an availability zones is.
+  * What are the advantages and disadvantages of building a high-traffic, low-latency site within
+a single AZ?
+  * Within a single region?
+  * Across multiple regions?
 
 # Non-technical
 * Share a time when you had a techinical conflict with a co-worker, and how you resolved it.
