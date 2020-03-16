@@ -1,5 +1,18 @@
+# Command Line Tests
+
+## curl
+On a linux shell with sudo permissions, make it so if I type the following command, it will output the displayed text:
+
+```
+$ curl localhost
+hi
+```
+
+## multiplication table
+
 In the programming language of your choice, write a program that displays the following text:
 
+```
 1       2       3       4       5       6       7       8       9       10      11      12
 2       4       6       8       10      12      14      16      18      20      22      24
 3       6       9       12      15      18      21      24      27      30      33      36
@@ -12,3 +25,6 @@ In the programming language of your choice, write a program that displays the fo
 10      20      30      40      50      60      70      80      90      100     110     120
 11      22      33      44      55      66      77      88      99      110     121     132
 12      24      36      48      60      72      84      96      108     120     132     144
+```
+
+## 
