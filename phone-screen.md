@@ -26,3 +26,5 @@ Closing
 * Brief summary of how our team works.
   * with other teams
   * the role we fill in the company if not covered above.
+* Explain they will hear back from us in the future.
+* Thank them for their time.
