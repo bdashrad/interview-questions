@@ -27,4 +27,6 @@ In the programming language of your choice, write a program that displays the fo
 12      24      36      48      60      72      84      96      108     120     132     144
 ```
 
-## 
+## edit a file in s3
+
+Write a simple script to make a change to a file stored in s3.
