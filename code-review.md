@@ -1,4 +1,6 @@
 # Debugging bash scripts
+> i don't really use this one anymore, it's too much like trivia
+
 determine what is wrong with the following script, if anything.
 
 ```bash
