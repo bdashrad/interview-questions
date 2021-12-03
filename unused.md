@@ -1,12 +1,31 @@
 # Currently unused questions
 
+## Debugging bash scripts
+
+> i don't really use this one anymore, it's too much like trivia
+
+determine what is wrong with the following script, if anything.
+
+```bash
+#!/usr/bin/env bash
+
+PACKAGENAME=$1
+
+pkgrm -a /tmp/noask $PACKAGENAME
+echo "Removing $PACKAGENAME..."
+if [ $? = 0]; then
+   echo "Removal Successfull"
+fi
+```
+
 ## Data Munging
+
 Question: Implement the following function in the programming language of your choice.
 
 Function: collate_records(keys,records). Re-organize an array of records by the value of specified keys.
 
-    <keys> is an array of keys by which to collate the result.
-    <records> is an array of records, each a table (e.g.: Hash in Ruby, Dict in Python) that has a value for each key in <keys>.
+* `<keys>` is an array of keys by which to collate the result.
+* `<records>` is an array of records, each a table (e.g.: Hash in Ruby, Dict in Python) that has a value for each key in `<keys>`.
 
 The function returns a table of tables, length(keys) deep, in which the keys of each table are the unique values of all the records for that key, and the value of each key is a table of records having that value collated by the remaining keys. For the innermost tables, the value of each key is an array of the records having all of the values specified by enclosing keys.
 
@@ -51,7 +70,7 @@ You have been asked to troubleshoot a system that processes text documents that 
 
 The corruption consists of exclamation point characters, !,  inserted between other characters in the file at random.  Characters have not been removed or replaced, only added.  For example, the first paragraph of Dostoevsky's, Notes from Underground, now looks like this:
 
-```
+```plaintext
 I am a s!ick man. ...  I am a spiteful m!an.  I! am an unatt!ra!ctive man. ! I
 believ!e my liver is diseased.  However, !I k!no!w nothing at all a!bout my
 disea!se, !and do not! know for cer!tain what ails me.!  I don't cons!ul!t a doctor
